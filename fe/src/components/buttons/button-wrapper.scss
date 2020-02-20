@@ -1,0 +1,24 @@
+.time-period-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    li{
+        list-style: none;
+        user-select: none;
+    }
+
+    li:hover{
+        background-color: #faada5;
+    }
+
+    .enabled {
+        background-color: none;
+        cursor: pointer;
+    }
+
+    .disabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: #faada5;
+    }
+}

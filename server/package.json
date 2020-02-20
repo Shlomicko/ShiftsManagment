@@ -1,0 +1,14 @@
+{
+  "name": "shifts",
+  "version": "1.0.0",
+  "description": "store to manage shifts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shlomi Bittan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
